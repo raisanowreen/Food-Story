@@ -2,11 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: 3%;
 }
 .align-center{
     text-align: center;
-    color: white;
+    padding: 100px 400px;
 }
 .bg-one{
     background-image: url(images/bg\ one.png);
@@ -29,24 +28,36 @@ div{
     text-decoration: none;
     background-image: linear-gradient(purple, cyan);
     padding: 10px 2px;
-    border-radius: 3px;
+    border-radius: 10px;
     color:black;
     font-weight: 3px;
 }
 .bg-two{
     display: flex;
-    background-image: url(images/bg\ two.png);
-    background-repeat: no-repeat;
+    background-image: url(images/shapes/Frame\ 56.jpg);
 }
 .half-width{
     width: 50%;
-    padding:20px 20px;
-}
-.half-width img{
-    width: 100%;
+    padding:10%;
 }
 .bg-three{
     display: flex;
-    background-image: url(images/bg\ three.png);
-    background-repeat: no-repeat;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+}
+.new-display{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 0;
+}
+.share-width{
+    width: 35%;
+    padding: 0px 50px;
+    height: 300px;
+    width: 250px;
+}
+.share-width img{
+    width: 70%;
+}
+.share-width p{
+    padding-right: 25%;
 }
